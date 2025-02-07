@@ -44,3 +44,53 @@ This project is an automated testing framework for Universal Viewer, built using
   * Enable/Disable Preserve Zoom on Navigation   
   * Open & validate More Info link in a new tab 
 
+ **Installation and Setup**   
+  Make sure you have the following installed:  
+  * `Node.js (LTS version)`  
+  * `npm` (comes with node.js)
+
+  **Clone the Repository**  
+    `git clone <repo-url> cd <project-folder>`
+
+  **Install Dependencies**   
+    * Install puppeteer: 
+     `npm i puppeteer`: Download compatible Chrome during installation  
+    * Install Jest:  
+      `npm install jest --save-dev`  
+    * Install Jest HTML Reporter (For Test Reports)  
+      `npm install jest-html-reporter --save-dev`
+
+  **Running Test**  
+  * Run all the test: `npm test`  
+  * Run a specific test file: `npx jest tests/universalViewer.test.js`  
+  * Generate HTML test reports: `npm test`  
+  * Runs Jest in verbose mode: `npx jest --verbose`  
+      It will display detailed logs of every test, including:
+      * Test file execution order
+      * Individual test names & results
+      * Assertions that passed or failed
+      * Execution time per test
+  * Run a single test file with detailed output:  
+    `npx jest tests/universalViewer.test.js --verbose`  
+
+  **Summary of Key Folders**
+  | **Folder**	      |       **Purpose**    |
+  |-------------------|----------------------|
+  |utils/	            |      Stores configuration (RC-URLs, Search keywords &  search numbers for test cases, an Chanhe Locale ).This file allows easy updates without modifying test scripts.  |
+  |pages/	            |      Page Object Model (POM) which define reusable test methods. If a new feature is added to Universal Viewer, create a new method inside the respective pages/ class.  |
+  |tests/	            |       Jest test cases for verifying UI functionality. Test coverage expands with new features. You can create new test suites in tests/ to cover additional scenarios.  |
+  |screenshots/	      |       Stores failure screenshots for debugging  |
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
