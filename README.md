@@ -34,13 +34,13 @@ This project is an automated testing framework for Universal Viewer, built using
       * Navigate to Polish locale (pl-PL)
       * Validate correct URLs for different locales
 
-  ⚙ **Settings Page Functionalities**(`SettingsButtonPage.js`)
-      * Open & Close the settings panel
-      * Enable/Disable Reduced Animation
-      * Enable/Disable Navigator
-      * Enable/Disable Two Page View
-      * Enable/Disable Truncate Thumbnail Labels
-      * Enable/Disable Mouse Click to Zoom
-      * Enable/Disable Preserve Zoom on Navigation
+  ⚙ **Settings Page Functionalities**(`SettingsButtonPage.js`)  
+      * Open & Close the settings panel  
+      * Enable/Disable Reduced Animation  
+      * Enable/Disable Navigator  
+      * Enable/Disable Two Page View  
+      * Enable/Disable Truncate Thumbnail Labels  
+      * Enable/Disable Mouse Click to Zoom  
+      * Enable/Disable Preserve Zoom on Navigation  
       * Open & validate More Info link in a new tab 
 
