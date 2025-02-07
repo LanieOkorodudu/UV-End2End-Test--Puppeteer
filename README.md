@@ -82,7 +82,7 @@ This project is an automated testing framework for Universal Viewer, built using
   |screenshots/	      |       Stores failure screenshots for debugging  |
 
 
-  **Contributors:  
+  **Contributors** 
   Lanie Okorodudu  
   Senior Test Engineer  
   Universal Viewer (BL)
