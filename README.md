@@ -12,19 +12,19 @@ This project is an automated testing framework for Universal Viewer, built using
   * Custom Jest reporters for detailed test reports
 
   **Features Tested**  
-    📌 **Universal Viewer Functionalities**(`UniversalViewerPage`)  
-      * Navigation between images (`next` and `previous` button)  
-      * Zoom in and Zoom out functionality  
-      * Image rotation(clockwise rotation)  
-      * Adjust image settings and close settings  
-      * View modes (Single Page, Two Page, and Gallery View)  
-      * Search within item functionality (negative testing-validation for no results pop up)  
-      * Search by entering a page number  
-      * Open & close thumbnails and index panel  
-      * Download image modal opens & closes correctly  
-      * Share & Embed functionality validation  
-      * Slider adjustment for navigation  
-      * Full-screen mode toggle
+    📌 **Universal Viewer Functionalities**(`UniversalViewerPage`)    
+  * Navigation between images (`next` and `previous` button)    
+  * Zoom in and Zoom out functionality   
+  * Image rotation(clockwise rotation)   
+  * Adjust image settings and close settings    
+  * View modes (Single Page, Two Page, and Gallery View)    
+  * Search within item functionality (negative testing-validation for no results pop up)    
+  * Search by entering a page number    
+  * Open & close thumbnails and index panel    
+  * Download image modal opens & closes correctly    
+  * Share & Embed functionality validation   
+  * Slider adjustment for navigation    
+  * Full-screen mode toggle
 
   🌎 **Locale Change    Functionalities** (`SettingsPage.js`)
       * Navigate to English locale (en-GB)
