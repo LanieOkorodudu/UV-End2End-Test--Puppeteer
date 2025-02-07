@@ -76,7 +76,7 @@ This project is an automated testing framework for Universal Viewer, built using
   **Summary of Key Folders**
   | **Folder**	      |       **Purpose**    |
   |-------------------|----------------------|
-  |utils/	            |      Stores configuration (RC-URLs, Search keywords &  search numbers for test cases, an Chanhe Locale ).This file allows easy updates without modifying test scripts.  |
+  |utils/	            |      Stores configuration (RC-URLs, Search keywords &  search numbers for test cases, an Change Locale ).This file allows easy updates without modifying test scripts.  |
   |pages/	            |      Page Object Model (POM) which define reusable test methods. If a new feature is added to Universal Viewer, create a new method inside the respective pages/ class.  |
   |tests/	            |       Jest test cases for verifying UI functionality. Test coverage expands with new features. You can create new test suites in tests/ to cover additional scenarios.  |
   |screenshots/	      |       Stores failure screenshots for debugging  |
