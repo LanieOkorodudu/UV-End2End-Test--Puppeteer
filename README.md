@@ -53,11 +53,11 @@ This project is an automated testing framework for Universal Viewer, built using
     `git clone <repo-url> cd <project-folder>`
 
   **Install Dependencies**   
-    * Install puppeteer: 
+  * Install puppeteer: 
      `npm i puppeteer`: Download compatible Chrome during installation  
-    * Install Jest:  
+  * Install Jest:  
       `npm install jest --save-dev`  
-    * Install Jest HTML Reporter (For Test Reports)  
+  * Install Jest HTML Reporter (For Test Reports)  
       `npm install jest-html-reporter --save-dev`
 
   **Running Test**  
