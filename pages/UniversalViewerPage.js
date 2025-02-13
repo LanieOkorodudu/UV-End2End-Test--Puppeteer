@@ -112,8 +112,8 @@ class UniversalViewerPage {
         await this.page.type(this.searchPageTextbox, testData.pageNumber, { delay: 100 });
         await this.page.keyboard.press('Enter');
     
-        // Take a screenshot for debugging
-        await this.page.screenshot({ path: 'searchNumber.png' });
+        // Take a screenshot for debugging (uncomment the code if needed for debugging)
+       // await this.page.screenshot({ path: 'searchNumber.png' });
     }
     
     
@@ -150,8 +150,8 @@ class UniversalViewerPage {
             console.log("Search completed. Results found.");
         }
     
-        // Take a screenshot for debugging
-        await this.page.screenshot({ path: 'searchitem.png' });
+        // Take a screenshot for debugging (uncomment the code if needed for debugging)
+       // await this.page.screenshot({ path: 'searchitem.png' });
     
         console.log(`Search for "${testData.searchKeyword}" completed.`);
     }
@@ -173,8 +173,8 @@ class UniversalViewerPage {
     
         console.log("Download modal is open!");
     
-        // Take a screenshot for debugging
-        await this.page.screenshot({ path: 'download.png' });
+        // Take a screenshot for debugging (uncomment the code if needed for debugging)
+        //await this.page.screenshot({ path: 'download.png' });
     
         // Click the Close button
         console.log("Clicking the Close button...");
